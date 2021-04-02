@@ -74,24 +74,7 @@ INFO: ==> [MAXTORSTM3500630AS|9QG03B71]
 INFO: Running badblocks on /dev/sdb.
 INFO: ==> output to /var/tmp/bht-data/disks/MAXTORSTM3500630AS_9QG07KSW.
 INFO: ==> [MAXTORSTM3500630AS|9QG07KSW]
-INFO: Running badblocks on /dev/sdc.
-INFO: ==> output to /var/tmp/bht-data/disks/MAXTORSTM3500630AS_9QG06Y9T.
-INFO: ==> [MAXTORSTM3500630AS|9QG06Y9T]
-INFO: Running badblocks on /dev/sdd.
-INFO: ==> output to /var/tmp/bht-data/disks/MAXTORSTM3500630AS_9QG07NY1.
-INFO: ==> [MAXTORSTM3500630AS|9QG07NY1]
-INFO: Running badblocks on /dev/sde.
-INFO: ==> output to /var/tmp/bht-data/disks/MAXTORSTM3500630AS_9QG0481X.
-INFO: ==> [MAXTORSTM3500630AS|9QG0481X]
-INFO: Running badblocks on /dev/sdf.
-INFO: ==> output to /var/tmp/bht-data/disks/MAXTORSTM3500630AS_9QG07MBJ.
-INFO: ==> [MAXTORSTM3500630AS|9QG07MBJ]
-INFO: Running badblocks on /dev/sdg.
-INFO: ==> output to /var/tmp/bht-data/disks/WDCWD5002ABYS-01B1B0_WD-WCASY4156094.
-INFO: ==> [WDCWD5002ABYS-01B1B0|WD-WCASY4156094]
-INFO: Running badblocks on /dev/sdh.
-INFO: ==> output to /var/tmp/bht-data/disks/MAXTORSTM3500630AS_9QG04LGB.
-INFO: ==> [MAXTORSTM3500630AS|9QG04LGB]
+
 ```
 to check on status:
 ```
@@ -106,36 +89,7 @@ MAXTORSTM3500630AS_9QG07KSW:
 	SMART:[Reallocated_Sector_Ct=0]
 	SMART:[Power_On_Hours=14208]
 	SMART:[Multi_Zone_Error_Rate=0]
-MAXTORSTM3500630AS_9QG06Y9T:
-	badblocks[Testing with pattern 0xaa   0.64% done, 0:42 elapsed. (0/0/0 errors)]
-	SMART:[Reallocated_Sector_Ct=0]
-	SMART:[Power_On_Hours=14208]
-	SMART:[Multi_Zone_Error_Rate=0]
-MAXTORSTM3500630AS_9QG07NY1:
-	badblocks[Testing with pattern 0xaa   0.66% done, 0:42 elapsed. (0/0/0 errors)]
-	SMART:[Reallocated_Sector_Ct=0]
-	SMART:[Power_On_Hours=14209]
-	SMART:[Multi_Zone_Error_Rate=0]
-MAXTORSTM3500630AS_9QG0481X:
-	badblocks[Testing with pattern 0xaa   0.66% done, 0:42 elapsed. (0/0/0 errors)]
-	SMART:[Reallocated_Sector_Ct=0]
-	SMART:[Power_On_Hours=14209]
-	SMART:[Multi_Zone_Error_Rate=0]
-MAXTORSTM3500630AS_9QG07MBJ:
-	badblocks[Testing with pattern 0xaa   0.68% done, 0:42 elapsed. (0/0/0 errors)]
-	SMART:[Reallocated_Sector_Ct=0]
-	SMART:[Power_On_Hours=14209]
-	SMART:[Multi_Zone_Error_Rate=0]
-WDCWD5002ABYS-01B1B0_WD-WCASY4156094:
-	badblocks[Testing with pattern 0xaa   0.99% done, 0:42 elapsed. (0/0/0 errors)]
-	SMART:[Reallocated_Sector_Ct=2]
-	SMART:[Power_On_Hours=54979]
-	SMART:[Multi_Zone_Error_Rate=0]
-MAXTORSTM3500630AS_9QG04LGB:
-	badblocks[Testing with pattern 0xaa   0.67% done, 0:42 elapsed. (0/0/0 errors)]
-	SMART:[Reallocated_Sector_Ct=0]
-	SMART:[Power_On_Hours=14208]
-	SMART:[Multi_Zone_Error_Rate=0]
+
 ```
 to stop the tests:
 ```
