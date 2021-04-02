@@ -7,16 +7,23 @@ bht is a script to help with bulk hdd testing using badblocks. when you need to 
 for lububtu
 
 apt install ksh
+
 apt install smartmontools
+
 apt install lsscsi
+
 apt install bsd-mailx
+
 apt install sg3_utils
 
 check blocksize
+
 sudo sg_scan -i
+
 sudo sg_readcap /dev/sgX
 
 Reformat to 512k if needed
+
 sudo sg_format --format --size=512 /dev/sg2
 
 
