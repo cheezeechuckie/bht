@@ -5,7 +5,7 @@ bht is a script to help with bulk hdd testing using badblocks. when you need to 
 
 # REQUIREMENTS
 
-for lububtu
+for lububtu 20.10 live-cd
 ```
 apt install ksh
 apt install smartmontools
