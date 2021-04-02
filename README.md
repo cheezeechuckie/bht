@@ -34,19 +34,19 @@ $ mkdir /path/to/test/data
 change to that directory. make sure 'bht' is in your path, or call it with full path with a list of hard drives to test. note that you must run 'bht' as root or with root privileges (with sudo or su):
 ```
 $ cd /path/to/test/data
-$ bht /dev/sda /dev/sdb /dev/sdc /dev/sdd
+$ ../bht /dev/sda /dev/sdb /dev/sdc /dev/sdd
 ```
 you will be prompted to confirm the test run, as it will destroy any data on the hard drives. once you confirm, badblocks will be launched in the background for each hard drive.
 
 to check on the status of the test run, execute 'bht' with --status option:
 ```
 $ cd /path/to/test/data
-$ bht --status
+$ ../bht --status
 ```
 you can stop the tests with the --terminate option:
 ```
 $ cd /path/to/test/data
-$ bht --terminate
+$ ../bht --terminate
 ```
 # EXAMPLE
 to run the test:
@@ -62,10 +62,6 @@ ATTN: ARE YOU SURE YOU WANT TO PROCEED?: y
 INFO: collecting SMART data from each drive.
 INFO: MAXTORSTM3500630AS / 9QG03B71
 INFO: MAXTORSTM3500630AS / 9QG07KSW
-INFO: MAXTORSTM3500630AS / 9QG06Y9T
-INFO: MAXTORSTM3500630AS / 9QG07NY1
-INFO: MAXTORSTM3500630AS / 9QG0481X
-INFO: MAXTORSTM3500630AS / 9QG07MBJ
 INFO: WDCWD5002ABYS-01B1B0 / WD-WCASY4156094
 INFO: MAXTORSTM3500630AS / 9QG04LGB
 INFO: Running badblocks on /dev/sda.
@@ -96,12 +92,7 @@ to stop the tests:
 $ bht --terminate
 MAXTORSTM3500630AS_9QG03B71: terminating PID=7388.
 MAXTORSTM3500630AS_9QG07KSW: terminating PID=7390.
-MAXTORSTM3500630AS_9QG06Y9T: terminating PID=7392.
-MAXTORSTM3500630AS_9QG07NY1: terminating PID=7394.
-MAXTORSTM3500630AS_9QG0481X: terminating PID=7396.
-MAXTORSTM3500630AS_9QG07MBJ: terminating PID=7398.
-WDCWD5002ABYS-01B1B0_WD-WCASY4156094: terminating PID=7399.
-MAXTORSTM3500630AS_9QG04LGB: terminating PID=7400.
+
 ```
 # OTHER OPTIONS
 if you provide an email address with --email option, when an instance of badblocks is done, you will receive an email notice with the results. please note that this relies on the mailx command to work, so your local mail relaying capability must be working. here's an example
