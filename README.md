@@ -12,6 +12,7 @@ apt install smartmontools
 apt install lsscsi
 apt install bsd-mailx
 apt install sg3_utils
+apt install iotop
 ```
 
 check blocksize
