@@ -9,12 +9,14 @@ bht for 3TB SAS takes about 42hrs
 
 for lububtu 20.10 live-cd
 ```
-apt install ksh
-apt install smartmontools
-apt install lsscsi
-apt install bsd-mailx
-apt install sg3_utils
-apt install iotop
+sudo apt install ksh
+sudo apt install smartmontools
+sudo apt install lsscsi
+sudo apt install bsd-mailx
+sudo apt install sg3_utils
+sudo apt install iotop
+
+git clone https://github.com/cheezeechuckie/bht.git
 ```
 
 check blocksize
