@@ -3,7 +3,7 @@ Credit to ezonakiusagi for original script
 
 bht is a script to help with bulk hdd testing using badblocks. when you need to fully test 24 or 48 or whatever number of hard drives at the same time with badblocks, bht makes this easy by launching multiple instances of badblocks in the background. you can periodically check on the status of all running instances of badblocks. you can even leave an email address so that when an instance of badblocks is done, you can receive an email notice with the results.
 
-bht for 3TB SAS takes about 52 hrs (6.5hrs per test * 8 tests)
+bht for 3TB SAS takes about 52-54 hrs (6.5hrs per test * 8 tests)
 
 # REQUIREMENTS
 
