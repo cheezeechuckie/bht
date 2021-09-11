@@ -7,7 +7,7 @@ bht for 3TB SAS takes about 52-54 hrs (6.5hrs per test * 8 tests)
 
 # REQUIREMENTS
 
-for lububtu 20.10 live-cd
+for lubuntu live-cd
 ```
 sudo apt install ksh
 sudo apt install smartmontools
