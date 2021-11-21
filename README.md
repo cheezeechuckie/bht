@@ -13,7 +13,7 @@ sudo apt install ksh
 sudo apt install smartmontools
 sudo apt install lsscsi
 sudo apt install bsd-mailx
-sudo apt install sg3_utils
+sudo apt install sg3-utils
 sudo apt install iotop
 
 git clone https://github.com/cheezeechuckie/bht.git
