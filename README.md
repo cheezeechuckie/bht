@@ -28,7 +28,7 @@ sudo sg_readcap /dev/sgX
 Reformat to 512k if needed
 ```
 sudo sg_format --format --verbose --size=512 /dev/sg2
-
+```
 Reformat to 4k if needed
 ```
 sudo sg_format --format --verbose --size=4096 /dev/sg2
