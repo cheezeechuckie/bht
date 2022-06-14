@@ -20,18 +20,16 @@ sudo apt install iotop
 git clone https://github.com/cheezeechuckie/bht.git
 ```
 
-check blocksize
+checks
 ```
 sudo sg_scan -i
 sudo sg_readcap /dev/sgX
+sudo smartctl -x /dev/sdX
 ```
 
-Reformat to 512k if needed
+Reformat to 512k or 4k if needed
 ```
 sudo sg_format --format --verbose --size=512 /dev/sg2
-```
-Reformat to 4k if needed
-```
 sudo sg_format --format --verbose --size=4096 /dev/sg2
 ```
 
