@@ -14,6 +14,7 @@ sudo apt install smartmontools
 sudo apt install lsscsi
 sudo apt install bsd-mailx
 sudo apt install sg3-utils
+sudo apt install sdparm
 sudo apt install iotop
 
 git clone https://github.com/cheezeechuckie/bht.git
